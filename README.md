@@ -18,7 +18,8 @@
 
 ### Блок-схема
 
- 
+ <img width="621" height="501" alt="image" src="https://github.com/user-attachments/assets/49b14eba-b010-40bd-9f1f-5d310816b913" />
+
 
 
 
