@@ -21,13 +21,38 @@
  <img width="621" height="501" alt="image" src="https://github.com/user-attachments/assets/49b14eba-b010-40bd-9f1f-5d310816b913" />
 
 
-
+https://github.com/ArtemZemlyanukhin/DZ-lab-6new/blob/master/DZ%20lab-6new/условие.drawio.png?raw=true
 
 ## 2. Реализация программы
+      #include <stdio.h>
+      #include <locale.h>
+      #include <math.h>
+      task();
+      main()
+      {
+      	setlocale(LC_CTYPE, "RUS");
+      	task();
+      }
+      task()
+      {
+      	int N;
+      	printf("Введите число N\n");
+      	scanf("%d", &N);
+      	if (N % 10 == 5 || N / 10 % 10 == 5 || N / 100 == 5) {
+      		printf("5 входит в число %d\n",N);
+      	}
+      	else {
+      		printf("5 не входит в число %d\n",N);
+      
+      	}
+      	system("pause");
+      }
       
 ## 3. Результаты работы программы
 
-
+Введите число N
+645
+5 входит в число 645
 ## 4. Информация о разработчике
 
 Землянухин Артём бИЦ-252
